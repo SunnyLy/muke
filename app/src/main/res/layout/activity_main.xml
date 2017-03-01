@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <sunny.sunnychartdemo.view.ColumnView
+        android:id="@+id/columnView"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        app:graphTitle="Android柱形图"
+        app:axisTextSize="20sp"
+        app:X_AxisName="X轴"
+        app:Y_AxisName ="Y轴"/>
+</RelativeLayout>
